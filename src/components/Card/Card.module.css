@@ -1,0 +1,54 @@
+.wrapper{
+    padding: 15px;
+    cursor: pointer;
+    width: calc(309px - 30px);
+    height: calc(340px - 30px);
+    background-color: rgb(248, 176, 164);
+    border-radius: 7px;
+    margin: 15px;
+    display: inline-block;
+}
+
+.headerWrapper{
+    color: black;
+    font-weight: bolder;
+    height: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-transform: uppercase;
+}
+
+.descriptionWrapper{
+    height: 204px;
+    overflow: auto;
+    margin: 15px 0;
+    text-align: justify;
+    color: #121754;
+    font-size: 14px;
+}
+
+.staffDetailsWrapper{
+    color: rgb(53, 42, 42);
+    font-size: 12px;
+}
+
+.staffDetails{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-transform: uppercase;
+    color: black;
+    margin-top: 5px;
+}
+
+.qualificationText{
+    font-size: 10px;
+    color: rgb(53, 42, 42);
+}
+
+.dateWrapper{
+    text-align: right;
+    font-size: 10px;
+    color: black;
+    margin-bottom: 5px;
+}

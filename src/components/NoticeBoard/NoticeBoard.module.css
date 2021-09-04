@@ -1,0 +1,49 @@
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: calc(100% - 50px);
+}
+
+.cardsWrapper{
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    margin-top: 15px;
+}
+
+.secondaryHeader{
+    height: 50px;
+    width: 100%;
+}
+
+.rightWrapper{
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding-right: 15px;
+}
+
+.searchTextBox{
+    color: white;
+    width: 200px;
+    height: 30px;
+    background-color: transparent;
+    border: 1px solid rgb(158, 155, 155);
+    border-radius: 5px;
+    outline: none;
+    padding: 0 10px;
+}
+
+.date{
+    color: white;
+    width: 150px;
+    height: 30px;
+    background-color: transparent;
+    border: 1px solid rgb(158, 155, 155);
+    border-radius: 5px;
+    outline: none;
+    padding: 0 10px;
+    margin-right: 20px;
+}

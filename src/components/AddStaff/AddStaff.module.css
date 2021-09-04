@@ -1,0 +1,47 @@
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    height: 100%;
+    border-right: 1px solid rgb(235, 232, 232);
+}
+
+.headerText{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    font-family: 'Homemade Apple', cursive;
+}
+
+.inputWrapper{
+    margin-top: 10px;
+    width: fit-content;
+    height: 48px;
+}
+
+.addStaffBtn{
+    width: 100px;
+    height: 40px;
+    margin-top: 20px;
+    color: black;
+    font-weight: bold;
+    background-color: #79cef5;
+}
+
+.disabled{
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.checkBox{
+    margin-left: 20px;
+}
+
+.isAdminWrapper{
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

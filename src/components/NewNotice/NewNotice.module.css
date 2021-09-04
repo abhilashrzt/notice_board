@@ -1,0 +1,94 @@
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    border-right: 1px solid rgb(235, 232, 232);
+}
+
+.headerText{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px 0;
+    font-family: 'Homemade Apple', cursive;
+}
+
+.inputWrapper{
+    margin-top: 10px;
+    width: fit-content;
+    height: 60px;
+}
+
+.addStaffBtn{
+    width: 100px;
+    height: 40px;
+    margin-top: 20px;
+    color: black;
+    font-weight: bold;
+    background-color: #79cef5;
+}
+
+.disabled{
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.checkBox{
+    margin-left: 20px;
+}
+
+.isAdminWrapper{
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.textAreaWrapper{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.textArea{
+    height: 150px;
+    resize: none;
+    color: white;
+    width: 200px;
+    background-color: transparent;
+    border: 1px solid rgb(158, 155, 155);
+    border-radius: 5px;
+    outline: none;
+    padding: 0 10px;
+    margin-top: 3px;
+}
+
+.dropDownElement{
+    margin-top: 3px;
+    width: 225px;
+    max-width: 250px !important;
+    margin-left: 0 !important;
+    color: white;
+    height: 25px;
+    background-color: transparent;
+    border: 1px solid rgb(158, 155, 155);
+    border-radius: 5px;
+    outline: none;
+}
+
+.fileSelectElement{
+    width: 222px;
+    margin-top: 3px;
+}
+
+.uploadPopup{
+    position: absolute;
+    width: 100%;
+    height: 30px;
+    background-color: rgb(128, 197, 59);
+    color: white;
+    font-size: 15px;
+    text-align: center;
+}

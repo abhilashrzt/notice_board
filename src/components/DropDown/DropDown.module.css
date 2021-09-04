@@ -1,0 +1,10 @@
+
+.dropDownElement{
+    max-width: 170px;
+    margin-left: 10px;
+}
+
+.labelWrapper{
+    min-width: 105px;
+    text-align: right;
+}

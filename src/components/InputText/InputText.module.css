@@ -1,0 +1,18 @@
+.wrapper{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-top: 5px;
+}
+
+
+.inputTextBox{
+    color: white;
+    width: 200px;
+    height: 25px;
+    background-color: transparent;
+    border: 1px solid rgb(158, 155, 155);
+    border-radius: 5px;
+    outline: none;
+    padding: 0 10px;
+}
